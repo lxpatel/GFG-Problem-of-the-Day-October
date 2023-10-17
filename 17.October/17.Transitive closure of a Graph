@@ -1,3 +1,7 @@
+// Transitive closure of a Graph
+// October 17, 2023
+// C++ Code
+
 class Solution {
 public:
     vector<vector<int>> transitiveClosure(int N, vector<vector<int>> graph)
