@@ -1,0 +1,16 @@
+//  Sum of all divisors from 1 to n
+// Java Code
+// October 21, 2023
+
+class Solution{
+    static long sumOfDivisors(int N){
+        // code here
+        long sum = 0;
+        for(int i = 1; i <= N; i++){
+            if(N == 0)
+             return 0;
+             sum += (N / i) * i;
+        }
+        return sum;
+    }
+}
